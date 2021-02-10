@@ -13,16 +13,13 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.0.0-alpha-7</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
 			<version>3.8.1</version>
 		</dependency>
-
-
-
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -40,7 +37,11 @@
 		</dependency>
 
 	</dependencies>
-
+	
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 
 
 </project>
